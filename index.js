@@ -5,7 +5,7 @@ const { getJson } = require("serpapi")
 //     location: "India",
 //     google_domain: "google.com",
 //     hl: "en",
-//     api_key: "952d7d2b0104d7fbb67a1181e46a3afda388dad7c0fc0ba0dbca7db2c06523af"
+//     api_key: ""
 // }, (json) => {
 //     console.log(json)
 // })
@@ -17,7 +17,7 @@ const { getJson } = require("serpapi")
 //     location: "India",
 //     google_domain: "google.com",
 //     hl: "en",
-//     api_key: "952d7d2b0104d7fbb67a1181e46a3afda388dad7c0fc0ba0dbca7db2c06523af"
+//     api_key: ""
 // }, (json) => {
 //     console.log(json)
 // })
@@ -28,7 +28,7 @@ getJson({
     location: "India",
     google_domain: "google.com",
     hl: "en",
-    api_key: "952d7d2b0104d7fbb67a1181e46a3afda388dad7c0fc0ba0dbca7db2c06523af"
+    api_key: ""
 }, (json) => {
     console.log(json['visual_matches'])
 })
